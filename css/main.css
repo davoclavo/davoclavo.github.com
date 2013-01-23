@@ -316,7 +316,7 @@ h1, #links a {
     letter-spacing: -3px;
     margin: 0;
     padding-left: 20px;
-    display: block;
+    
 }
 
 h1 {
@@ -331,9 +331,10 @@ h1 {
     background: #fff;
     text-decoration: none;
     margin-top: 0px;
-    display: block;
     text-align: left;
     color: #000;
+    clear: both;
+    float: left;
 }
 
 #links a i {

@@ -305,6 +305,9 @@ textarea {
 
 html {
     font-family: Helvetica Neue, Helvetica, Arial;
+    background-image: url(../img/nebulae.jpg);
+    -webkit-font-smoothing: antialiased;
+    
 }
 
 body {
@@ -312,15 +315,15 @@ body {
 }
 
 h1, #links a {
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
     font-size: 68px;
     letter-spacing: -3px;
     margin: 0;
-    padding-left: 20px;
-    
+    padding-left: 40px;
 }
 
 h1 {
-    border-bottom: 1px dashed #BBB;
+    border-bottom: 1px dashed rgba(255,255,255,0.5);
 }
 
 #links {
@@ -328,7 +331,6 @@ h1 {
 }
 
 #links a {
-    background: #fff;
     text-decoration: none;
     margin-top: 0px;
     text-align: left;
@@ -352,7 +354,7 @@ h1 {
 #links a:hover b {
     display: inline-block;
     font-weight: normal;
-    color: #999;
+    color: #DDD;
 }
 
 #links a:active {
@@ -389,7 +391,7 @@ h1 {
 }
 
 footer {
-    color: #ddd;
+    color: #EEE;
     float: right;
     font-size: 3em;
     letter-spacing: -1px;
